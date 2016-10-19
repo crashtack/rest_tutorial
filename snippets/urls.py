@@ -1,7 +1,7 @@
 from django.conf.urls import url, include
 from snippets import views
 from rest_framework.urlpatterns import format_suffix_patterns
-from snippet.views import SnippetViewSet, UserViewSet, api_root
+from snippets.views import SnippetViewSet, UserViewSet, api_root
 from rest_framework import renderers
 
 
